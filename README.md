@@ -1,4 +1,4 @@
-# react-boilerplate
+# react-reflux-starter
 A boilerplate using ReactJS, SASS, Gulp, and Browserify.
 The boilerplate features hot reloading using LiveReactload.
 ### Getting up and running
@@ -12,6 +12,6 @@ JS and SCSS inside `app` folder.
 Other static assets in `public` folder.
 
 ### Production
-1. Clone the repo on your server from `git@github.com:srsholmes/react-boilerplate.git`
+1. Clone the repo on your server from `git@github.com:srsholmes/react-reflux-starter.git`
 2. Run `npm install` from the root directory
 3. Run `npm run prod` 
