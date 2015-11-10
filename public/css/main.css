@@ -1,0 +1,42 @@
+/* line 1, /Users/sholm1/Sites/personal/react-reflux-boilerplate/app/scss/_base.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 5, /Users/sholm1/Sites/personal/react-reflux-boilerplate/app/scss/_base.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica', cursive;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-color: white; }
+
+/* line 20, /Users/sholm1/Sites/personal/react-reflux-boilerplate/app/scss/_base.scss */
+p {
+  margin-top: 10px; }
+  /* line 22, /Users/sholm1/Sites/personal/react-reflux-boilerplate/app/scss/_base.scss */
+  p.green {
+    background: green;
+    color: white; }
+  /* line 26, /Users/sholm1/Sites/personal/react-reflux-boilerplate/app/scss/_base.scss */
+  p.red {
+    background: red; }
+
+/* line 30, /Users/sholm1/Sites/personal/react-reflux-boilerplate/app/scss/_base.scss */
+[app] {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  max-width: 1000px;
+  overflow: hidden; }
+  @media (max-width: 640px) {
+    /* line 30, /Users/sholm1/Sites/personal/react-reflux-boilerplate/app/scss/_base.scss */
+    [app] {
+      max-width: 100%;
+      width: 100%;
+      height: auto; } }
+
+/*# sourceMappingURL=sass */
